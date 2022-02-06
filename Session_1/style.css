@@ -1,71 +1,74 @@
 * {
-    margin-left: 5px;
+  margin-left: 5px;
 }
 
 body {
-    background-color: rgba(250, 235, 215, 0.3);
+  background-color: rgba(250, 235, 215, 0.3);
 }
 
 h2 {
-    color: blue;
+  color: blue;
 }
 
 ol li {
-    color: green;
+  color: green;
 }
 
 ul li {
-    color: blue;
+  color: blue;
 }
 
 .headings {
-    text-align: center;
+  text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: cursive;
-    letter-spacing: 1.25px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: cursive;
+  letter-spacing: 1.25px;
 }
 
 h1 {
-    text-decoration: green wavy underline;
-    margin-top: 1px;
-    padding-top: 0;
+  text-decoration: green wavy underline;
+  margin-top: 1px;
+  padding-top: 0;
 }
 
 li {
-    padding: 3px;
+  padding: 3px;
 }
 
 li::first-letter {
-    font-size: 23px;
+  font-size: 23px;
 }
 
 a {
-    font-family: 'Gill Sans MT';
+  font-family: "Gill Sans MT";
 }
 
 a:hover {
-    font-size: larger;
+  font-size: larger;
 }
 
 .container {
-    padding-bottom: 2px;
-    font-size: 1.2em;
+  padding-bottom: 2px;
+  font-size: 1.2em;
 }
 
-#lorem{
-    line-height: 1.5;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+#lorem {
+  line-height: 1.5;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-
 
 .specific {
-    margin-top: 2rem;
-    margin-bottom: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
 }
-
-
 
 /* Guessing specificity */
 /* h1 {
@@ -77,8 +80,6 @@ a:hover {
 #heading1 {
     color: red;
 } */
-
-
 
 /* keyword : important  */
 /* h1 {
