@@ -1,0 +1,201 @@
+.container_inline {
+    display: inline-block;
+    margin: 1.5em;
+    border: 0.5em solid green;
+    padding: 1em;
+    height: 3em;
+    width: 7.5em;
+    text-align: center;
+    line-height: 3em;
+}
+
+.boxT {
+    margin: 1em;    
+    margin-bottom: 0;
+}
+
+.inline .container_inline {
+    display: inline;
+}
+
+.inline .boxT {
+    margin-bottom: 1em;
+}
+
+.block .container_inline {
+    display: block;
+}
+
+.inline-block .container_inline {
+    display: inline-block;
+}
+
+h1 {
+    margin-left: 0.5em;
+}
+
+.red {
+    border: 0.5em dashed red;
+}
+
+.yellow {
+    border: 0.5em dashed yellow;
+}
+
+.orange {
+    border: 0.5em dashed orange;
+}
+
+.green {
+    border: 0.5em dashed green;
+}
+
+.blue {
+    border: 0.5em dashed blue;
+}
+
+.flex {
+    display: flex;
+    border: 0.1em dashed burlywood;
+    margin-top: 0.25em;
+}
+
+.direction-row {
+    flex-direction: row;
+}
+
+.direction-row-reverse {
+    flex-direction: row-reverse;
+}
+
+.direction-column {
+    flex-direction: column;
+}
+
+.direction-column-reverse {
+    flex-direction: column-reverse;
+}
+
+.justify-content-flex-start {
+    justify-content: flex-start;
+}
+
+.justify-content-flex-end {
+    justify-content: flex-end;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-space-around {
+    justify-content: space-around;
+}
+
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
+.justify-content-space-evenly {
+    justify-content: space-evenly;
+}
+
+.align-content-flex-start {
+    align-content: flex-start;
+    flex-wrap: wrap;
+    height: 22em;
+}
+
+.align-content-flex-end {
+    align-content: flex-end;
+    flex-wrap: wrap;
+    height: 22em;
+}
+
+.align-content-center {
+    align-content: center;
+    flex-wrap: wrap;
+    height: 22em;
+}
+
+.align-content-space-around {
+    align-content: space-around;
+    flex-wrap: wrap;
+    height: 22em;
+}
+
+.align-content-space-between {
+    align-content: space-between;
+    flex-wrap: wrap;
+    height: 22em;
+}
+
+.align-content-strech {
+    align-content: stretch;
+    flex-wrap: wrap;
+    height: 22em;
+}
+
+.align-content-strech .container_inline {
+    height: auto;
+    line-height: 4.75;
+}
+
+.align-items-flex-start {
+    align-items: flex-start;
+    height: 10.5em;
+}
+
+.align-items-flex-end {
+    align-items: flex-end;
+    height: 10.5em;
+}
+
+.align-items-center {
+    align-items: center;
+    height: 10.5em;
+}
+
+.align-items-strech {
+    align-items: stretch;
+    height: 10.5em;
+}
+
+.align-items-strech .container_inline {
+    height: auto;
+    line-height: 4.25;
+}
+
+.flex-basis {
+    flex-basis: 10em;
+}
+
+.flex-grow {
+    flex-grow: 3;
+}
+
+.flex-shrink {
+    flex-shrink: 2;
+}
+
+.shrink div {
+    width: 22em;
+}
+
+@media (max-width: 992px){
+    #media {
+        color: darkmagenta;
+    }
+}
+
+@media (orientation: landscape){
+    #media {
+        color: crimson;
+    }
+}
+
+@media (orientation: portrait) and (max-width: 768px){
+    #media {
+        color: darkgoldenrod;
+    }
+}
