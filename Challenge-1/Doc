@@ -1,0 +1,23 @@
+https://docs.google.com/document/d/1tgVrmpKzMn6dTmmml4_rgH57Q-CktIeQ/edit?usp=sharing&ouid=115513851853595503976&rtpof=true&sd=true
+
+Challenge – 1
+
+In this challenge, you have to try to replicate the website “Museum of Candy”.
+
+All the relevant pictures and videos describing the website can be found in the “Reference” folder.
+The images used on the website are stored in the “imgs” folder.
+
+You have to make changes in the “index.html” and “app.css” files as per your understanding from the reference material.
+
+Some important things to consider :
+The website must be completely responsive for all screen sizes.
+It should include Bootstrap Navbar on top of the page.
+The navbar should have a hover effect i.e., on hovering, the colour of the links should change.
+The responsiveness can be achieved by using media queries or by using bootstrap grid.
+Some add-ons :
+You can change the theme of the website according to your preferred aesthetics.
+You can add additional bootstrap components if you feel their need.
+You can change the images and text with your own materials.
+
+Do note that the objective of this challenge is to apply your understanding and convert your creative ideas to create a nice webpage and learn important HTML, CSS, and Bootstrap stuff along the way. 
+
