@@ -1,0 +1,19 @@
+.row {
+    height: 35em;
+}
+
+h1 {
+    padding: 2px;
+}
+
+.purple {
+    color: purple;
+}
+
+.orange {
+    color: orange;
+}
+
+.bold {
+    font-weight: bold;
+}
